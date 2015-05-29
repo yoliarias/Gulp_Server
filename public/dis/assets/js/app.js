@@ -1,0 +1,1 @@
+requirejs.config({baseUrl:"js/lib",paths:{jquery:["jquery-1.9.0"]},shim:{},waitSeconds:0});

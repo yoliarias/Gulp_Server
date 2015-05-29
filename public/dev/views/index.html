@@ -1,0 +1,29 @@
+<!Doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Hello World</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="./public/dist/assets/css/master.css">
+	</head>
+	<body>
+		<!--[if lte IE 8]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<!-- Add your site or application content here -->
+		<p>Hello Africa!</p>
+
+		<script>
+			window.app = {
+				js_filepath: "./public/dev/assets/js/",
+				env: "local"
+			};
+		</script>
+		<script src="http://127.0.0.1:35729/livereload.js"></script> <!-- Does the livereload -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js" data-main="public/dev/assets/js/app"></script>
+	</body>
+</html>
